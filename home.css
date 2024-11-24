@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  position: relative;
+  overflow: hidden;
+  width: 600px;
+  max-width: 100%;
+  padding: 10px;
+}
+
+h1, h2 {
+  margin-top: 5px;
+  text-align: center;
+  color: #345caa;
+  text-transform: capitalize;
+}
+
+.taskContainer {
+  gap: 10px;
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+}
+
+input {
+  background-color: #eee;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.addTask,
+.logout {
+  background-color: #61d267;
+  color: #fff;
+  padding: 10px 45px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+table {
+    width: 100%;
+    margin-top: 5px;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#task-th {
+    width: 60%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 15px;
+}
+
+td {
+    background-color: #fafafa;
+    color: #333;
+    font-size: 16px;
+}
+
+.editButton {
+  background-color: #7893da;
+  color: #fff;
+  padding: 10px 25px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+.deleteButton {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 25px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 9px;
+}

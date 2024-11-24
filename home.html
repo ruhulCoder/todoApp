@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <button id="logout" class="logout">LogOut</button>
+
+    <div class="container" id="container">
+      <div class="card">
+        <h1>Hello</h1>
+
+        <div class="taskContainer">
+          <input type="text" name="" id="taskInput" placeholder="add task..." />
+          <button id="addTask" class="addTask">Add</button>
+        </div>
+
+        <h2>My Todo List</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th id="task-th">Task</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="taskTableBody">
+                <!-- Tasks will be inserted here dynamically -->
+            </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="home.js"></script>
+  </body>
+</html>
