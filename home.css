@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  background-color: #c9d6ff;
 }
 
 .container {
@@ -27,7 +27,8 @@ body {
   padding: 10px;
 }
 
-h1, h2 {
+h1,
+h2 {
   margin-top: 5px;
   text-align: center;
   color: #345caa;
@@ -52,7 +53,7 @@ input {
 
 .addTask,
 .logout {
-  background-color: #61d267;
+  background-color: #4589a0;
   color: #fff;
   padding: 10px 45px;
   border: 1px solid transparent;
@@ -64,33 +65,34 @@ input {
 }
 
 table {
-    width: 100%;
-    margin-top: 5px;
-    border-collapse: collapse;
-    border-radius: 8px;
-    overflow: hidden;
+  width: 100%;
+  margin-top: 5px;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 #task-th {
-    width: 60%;
+  width: 60%;
 }
 
-th, td {
-    padding: 10px;
-    text-align: left;
-    border: 1px solid #ddd;
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
 }
 
 th {
-    background-color: #f2f2f2;
-    color: #333;
-    font-size: 15px;
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 15px;
 }
 
 td {
-    background-color: #fafafa;
-    color: #333;
-    font-size: 16px;
+  background-color: #fafafa;
+  color: #333;
+  font-size: 16px;
 }
 
 .editButton {

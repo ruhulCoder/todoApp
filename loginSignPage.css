@@ -7,7 +7,6 @@
 
 body {
   background-color: #c9d6ff;
-  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,7 +44,7 @@ body {
 }
 
 .container button {
-  background-color: #61d267;
+  background-color: #4589a0;
   color: #fff;
   padding: 10px 45px;
   border: 1px solid transparent;
@@ -161,9 +160,8 @@ body {
 }
 
 .toogle {
-  background-color: #45a049;
   height: 100%;
-  background: linear-gradient(to right, #83dc88, #45a049);
+  background-color: #4589a0;
   color: #fff;
   position: relative;
   left: -100%;
